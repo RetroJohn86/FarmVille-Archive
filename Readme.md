@@ -8,8 +8,7 @@ As from the August 2025, the Download Size for this Repo is : **MB** ( Please No
 
 **+** __**Files and Folder Structure.**__
 
-**?** **:**
-.
+All images in this repo are found and mined and are located are organized based on category e.g. assethash, assets, e, embeds, xml and More.
 
 
 

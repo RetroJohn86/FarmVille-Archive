@@ -3,7 +3,7 @@
 
 **+** __**Repository Info**__
 
-As from the August 2025, the Download Size for this Repo is : **MB** ( Please Note The Size Can Change At Anytime Due Too Updates. ) also (RoyalRescue_KringleHunt\UI) rar file need extracted too the folder it located.
+As from the August 2025, the Download Size for this Repo is : **MB** ( Please Note The Size Can Change At Anytime Due Too Updates. ) also (RoyalRescue_KringleHunt\UI) (Mystrees_SweetValentine2019\PSD), rar file need extracted too the folder it located. this is due too file size.
 
 
 **+** __**Files and Folder Structure.**__

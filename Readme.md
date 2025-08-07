@@ -1,4 +1,4 @@
-# __**FarmVille**__
+# __**FarmVille Archive**__
 
 
 **+** __**Repository Info**__
@@ -17,8 +17,16 @@ As from the August 2025, the Download Size for this Repo is : **MB** ( Please No
 
 **This repo is for educational use only.**
 
+**This repo is part of the FarmVille Community.**
 
-**Please Respect the Original Source Material.**
+**Retro John 86 did/didn't modify stuff found within this repo.**
+
+**Please respect the original source material.**
+
+**All content found within this repo is the property [Zynga](https://www.zynga.com/) and Other Online Source**
+
+**Contribute from Internet Archive, [FV Replowed](https://discord.gg/vembVB3R9H), [Farm Villagers](https://discord.gg/Bm2EkN5vhz),**
+
 
 
 ## __**Social Media**__
@@ -27,6 +35,6 @@ You Can Follow Me and Chat via these Links. [Discord](https://discord.com/invite
 
 
 ## __**Repositories Links**__
-?
+Coming Soon
 
 __**Thank You and Enjoy**__

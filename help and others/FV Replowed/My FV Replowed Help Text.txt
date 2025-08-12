@@ -1,0 +1,72 @@
++ FV Replowed Help Info
+
+1. Get The Software via Download.
+
+PHP 8.4.x NTS zip : https://windows.php.net/download#php-8.4
+
+MySQL 5.7.44 : https://downloads.mysql.com/archives/get/p/23/file/mysql-5.7.44-winx64.zip or https://downloads.mysql.com/archives/get/p/23/file/mysql-5.7.44-win32.zip
+
+Composer : https://getcomposer.org/download/latest-stable/composer.phar
+
+FV-Replowed Repo : https://github.com/FV-Replowed/fv-replowed/archive/refs/tags/v0.0.1-alpha.zip
+
+Supplements : https://1drv.ms/f/c/9ad5fe6cfa547da4/EhNtkviSLGFCnaY9-ib0jCkBtYjq7JNdK4_NyhFdjnNW0w?e=4VOvv2
+
+Laragon : https://github.com/leokhoa/laragon/archive/refs/tags/6.0.0.zip
+
+Node.js : https://nodejs.org/dist/v22.13.1/node-v22.13.1-x64.msi or https://nodejs.org/dist/v22.13.1/node-v22.13.1-x86.msi
+
+Flash Player : https://archive.org/download/flashplayerarchive/pub/flashplayer/installers/archive/fp_32.0.0.371_archive.zip/32_0_r0_371%2Fflashplayer32_0r0_371_win.exe
+
+Pale Moon Web Browsers : https://www.palemoon.org/download.php?mirror=us&bits=64&type=installer or https://www.palemoon.org/download.php?mirror=us&bits=32&type=installer
+
+Game Assets : https://archive.org/compress/original-farmville/formats=WEB%20ARCHIVE%20GZ&file=/original-farmville.zip
+
+FVDehasher : Download From The FV Replowed Discord Server ( https://discord.gg/vembVB3R9H )
+
+
+2. Setting Up Files and Folders
+
++ FVDehasher (Not Needed, If You All Have All Assets)
+extract the assets using FVDehasher by putting the app in the folder with .warc Files. In the same Folder you should see two new folders one called ( e ) and the other called ( farmville ). you should have a total of 396,409 Files and 1,692 Folders Extract.
+
+
++ FV-Replowed Repo
+extract the .zip file in too a WWW folder and rename it to from ( fv-replowed-0.0.1-alpha ) too ( fv ) in the laragon-6.0.0 folder, and delete the index.php file. Now inside fv folder rename the ( .env.example ) too ( .env ) then open it and input your planned database credentials without quotes. also go in to the ( public/farmville/flashservices/amfphp/helpers ) and input the same credentials between the single quotes.
+
+NOTE : For the database name, I suggest ( farmvilledb ), For username ( root ) and Password ( test )
+
+
++ Setup with Laragon
+Inside laragons ( bin ) folders, Delete the pre-existing Inside of these folders, MySQL/PHP/Composer, Now added the update ones ( composer.phar ) too the Composer folder and the MySQL 5.7.44, PHP 8.4.x NTS too their folders. After doing this startup Laragon.exe, click on menu, finded PHP and click php.ini, change the second display_errors too Off with a capital O, and make error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT. Now initialize the server by clicking the elephant, then click again to shut it off. Now change the root password to the one you set earlier ( test ). toggle the server on and copy the assets folder into ( fv/public/farmville ). Now open the Laragon terminal, and type ( cd fv ) click enter, then run these commands and wait until it complete ( composer update ), ( php artisan key:generate ), ( php artisan migrate ), ( npm install -i ), ( npm run build ) and ( php artisan serve ). Now click the database button and create a session with a name of your choosing, input the username ( root ) and password ( test ), click save then open, deselect the yellow triangle warning icon beside the donate button to allow errors, select farmvilledb, and File->Run SQL File->farmvilledb.sql from supplements (errors are normal!)
+
+
++ Moving Stuff
+
+Move items.json into the ( fv/public/props ) folder.
+
+Move the toolbar32x32.png into ( fv/public/assets/hashed/assets/decorations ) folder.
+
+
++ Web Browsers and Flash
+
+Now install Pale Moon or another Flash-compatible browser as necessary, also Install Flash Player.
+
+Type in you browsers webaddress ( localhost:8000 ) then create an account, and see if it plays
+(use the error message to locate which asset to rename according to rename.txt)
+
+Note : Every time you want to run the game, run cd fv and php artisan serve command.
+
+
++ More Infomation
+
+FV Dehasher (functionally complete and tested for use with Java 8+)
+Extract FV files (with human-readable names) to assist in development and server setup.
+Command: java -jar FVDehasher-1.01-SNAPSHOT.jar
+I release this under the Apache 2.0 license. Thanks, jwarc team, for your work on such an awesome library!
+Under prime conditions, this tool should run in roughly 3-5 minutes.
+To utilize the extraction functionality, copy FV's WARC files into the program's working directory.
+To utilize the dehashing functionality, copy assethash.txt into the program's working directory.
+I have tested this tool thoroughly, but please inform me of bugs.
+
+Files maybe remove or replace on the discord at any time too ensure quality. Enjoy!

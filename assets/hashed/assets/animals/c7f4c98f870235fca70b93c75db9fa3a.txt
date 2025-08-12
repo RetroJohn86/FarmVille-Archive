@@ -1,0 +1,23 @@
+Item SwF:  magicdeer_scarletwingdeer_frt_adult
+           magicdeer_scarletwingdeer_frt_fire
+           magicdeer_scarletwingdeer_frt_idle
+           magicdeer_scarletwingdeer_frt_small
+           magicdeer_scarletwingdeer_frt_wings
+           
+Item Icon:
+  
+magicdeer_scarletwingdeer_frt_adult_icon
+magicdeer_scarletwingdeer_frt_adult_icon_200
+magicdeer_scarletwingdeer_frt_fire_icon
+magicdeer_scarletwingdeer_frt_fire_icon_200
+magicdeer_scarletwingdeer_frt_idle
+magicdeer_scarletwingdeer_frt_small_icon
+magicdeer_scarletwingdeer_frt_small_icon_200
+magicdeer_scarletwingdeer_frt_wings_icon
+magicdeer_scarletwingdeer_frt_wings_icon_200
+magicdeer_scarletwingdeer_icon
+magicdeer_scarletwingdeer_icon_200
+
+
+Item Size:
+Image Scale: 
